@@ -22,6 +22,8 @@ pipeline {
         sh 'docker-compose ps'
 	sh 'docker-compose unpause'
         sh 'docker-compose ps'
+	sh 'docker-compose stop'
+	sh 'docker-compose ps'
 		
       }
     }
