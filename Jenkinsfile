@@ -20,7 +20,7 @@ pipeline {
       steps {
         sh 'docker-compose pause'
         sh 'docker-compose ps'
-		sh 'docker-compose unpause'
+	sh 'docker-compose unpause'
         sh 'docker-compose ps'
 		
       }
